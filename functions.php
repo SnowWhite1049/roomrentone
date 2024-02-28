@@ -143,8 +143,8 @@ function custom_login_error_message($error) {
         $error = 'Login failed. Please try again.';
         
         // Redirect to a custom URL after a failed login
-        echo "fff";
-        //wp_redirect(site_url().'');
+        
+        wp_redirect(site_url().'');
 
         exit;
     }
@@ -170,3 +170,4 @@ function auto_redirect_after_logout(){
   wp_safe_redirect( site_url() );
   exit;
 }
+

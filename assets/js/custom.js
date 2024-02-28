@@ -63,8 +63,8 @@
         dayNames: ['日曜日','月曜日','火曜日','水曜日','木曜日','金曜日','土曜日'],
         dayNamesShort: ['日','月','火','水','木','金','土'],
         buttonText: {
-            prev: "<span class='fc-text-arrow'>‹</span>",
-            next: "<span class='fc-text-arrow'>›</span>",
+            prev: "<span class='fc-text-arrow'><i class='fa fa-arrow-alt-circle-left'></i></span>",
+            next: "<span class='fc-text-arrow'><i class='fa fa-arrow-alt-circle-right'></i></span>",
             prevYear: "<span class='fc-text-arrow'>«</span>",
             nextYear: "<span class='fc-text-arrow'>»</span>",
             today: 'today',
@@ -76,8 +76,10 @@
         // jquery-ui theming
         theme: false,
         buttonIcons: {
+            // prev: 'circle-triangle-w',
+            // next: 'circle-triangle-e'
             prev: 'circle-triangle-w',
-            next: 'circle-triangle-e'
+            next: 'fa fa-arrow-alt-circle-right'
         },
         
         //selectable: false,
@@ -6042,5 +6044,7 @@
         };
         
     }
+
+
     
     })(jQuery);

@@ -10,10 +10,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- Document title -->
     <title>studio R | レンタルスペース</title>
+    <script src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/plugins.js"></script>
+<!--Template functions-->
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/functions.js"></script>
+
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/custom.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/assets/plugins/validate/validate.min.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/assets/plugins/validate/valildate-rules.js"></script>
     <!-- Stylesheets & Fonts -->
     <link href="<?php echo get_template_directory_uri(); ?>/assets/css/plugins.css" rel="stylesheet">
     <link href="<?php echo get_template_directory_uri(); ?>/assets/css/style.css" rel="stylesheet">
     <link href="<?php echo get_template_directory_uri(); ?>/assets/css/custom.css" rel="stylesheet">
+    <link href="<?php echo get_template_directory_uri(); ?>/assets/css/calendar.css" rel="stylesheet">
     <?php wp_head(); ?>
 </head>
 

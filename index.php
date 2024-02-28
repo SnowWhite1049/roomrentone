@@ -9,7 +9,8 @@
                     <div class="slide-captions text-center text-light">
                         <!-- Captions -->
                         <h1 data-caption-animate="zoom-out">レンタルスペース</h1>
-                        <div><a href="#welcome" class="btn btn-primary scroll-to">サービス紹介</a></div>
+                        <p>Say hello to the smartest and most flexible bootstrap template. Polo is an powerful template that can build any type of websites, and quite possibly the only one you will ever need.</p>
+                        <div><a href="<?php echo site_url(); ?>/?page_slug=book1-selectplan" class="btn btn-primary scroll-to">レンタルスペースを予約する</a></div>
                         </span>
                         <!-- end: Captions -->
                     </div>
@@ -22,8 +23,9 @@
                 <div class="container">
                     <div class="slide-captions text-center text-light">
                         <!-- Captions -->
-                        <h1>レンタルスペース</h1>                        
-                        <div><a href="#welcome" class="btn btn-primary scroll-to">サービス紹介</a></div>                        
+                        <h1>レンタルスペース</h1>    
+                        <p>Say hello to the smartest and most flexible bootstrap template. Polo is an powerful template that can build any type of websites, and quite possibly the only one you will ever need.</p>
+                        <div><a href="<?php echo site_url(); ?>/?page_slug=book1-selectplan" class="btn btn-primary scroll-to">レンタルスペースを予約する</a></div>                        
                         <!-- end: Captions -->
                     </div>
                 </div>

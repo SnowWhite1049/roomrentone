@@ -28,6 +28,7 @@
                                     会員登録</a> </li>
                         </ul>
                     </div>
+                    <?php  if(empty(get_current_user_id())){?>
                     <div class="row w-100 justify-content-center" id="login-form">
 
                         <div class="col-md-12"
@@ -66,7 +67,7 @@
                         </div>
 
                     </div>
-
+                    <?php }?>
                     <div class="row w-100 justify-content-center" id="register-form">
                         <div class="col-md-12"
                             style="margin-top: 50px; background-color: #F8F6F2; padding: 50px; max-width:700px">
@@ -77,6 +78,7 @@
                                     また、ログインするだけで、毎回お名前や住所などを入力することなくスムーズにお買い物をお楽しみいただけます。
                                 </p>
                             </div>
+                            <?php  if(empty(get_current_user_id())){?>
                             <div class="mt-1 w-100 row">
                                 <div class="col-md-6 mt-2">
                                     <button class="base-button w-100"
@@ -88,6 +90,7 @@
                                     </button>
                                 </div>
                             </div>
+                            <?php }else{?>
                             <div class="mt-1 w-100 row">
                                 <div class="col-md-6 mt-2">
                                     <button class="base-button w-100">
@@ -98,6 +101,7 @@
                                     </button>
                                 </div>
                             </div>
+                            <?php }?>
                         </div>
 
 

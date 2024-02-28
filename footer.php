@@ -32,6 +32,8 @@
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/plugins.js"></script>
 <!--Template functions-->
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/functions.js"></script>
+
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/custom.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/assets/plugins/validate/validate.min.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/assets/plugins/validate/valildate-rules.js"></script>
 </body>
